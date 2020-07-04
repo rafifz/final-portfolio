@@ -1,0 +1,48 @@
+.About{
+    min-height: 100vh !important;
+    margin-top: 15vh;
+    .bio{
+        padding: 0 9vw 0 9vw;
+        img{
+            height: 100%;
+        }
+    }
+    .skill{
+        margin-top: 20vh;
+        padding: 0 4vw 0 4vw;
+        i{
+            color: rgb(91, 171, 182);
+        }
+        .skillCard{
+            margin-top: 10vh;
+            margin-bottom: 25vh;
+        }
+        .col-md-6{
+            .row{
+                transition: 0.1s ease-out;
+                height: 100%;
+                border: 1px solid rgba(0, 0, 0, .1);
+                &:hover{
+                    box-shadow: 1px 1px 20px rgba(0, 0, 0, .1);
+                    transform: scale(1.01);
+                }
+            }
+        }
+    }
+    .findme{
+        padding: 0px 0 50px 0;
+        color: black;
+        background-color: #fdd700;
+        img{
+            transition: 0.4s ease-out;
+            margin-bottom: 20px;
+            // margin-top: 50px;
+            &:hover{
+                opacity: .8;
+            }
+        }
+        .site{
+            margin-top: 50px;
+        }
+    }
+}
